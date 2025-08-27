@@ -4,7 +4,9 @@
 #'   breaks in the range of the data.
 #' @param makeSymmetric whether to make the range of the breaks symmetric around zero (only used if not all of the data is non-positive and not all of the data is non-negative)
 #' @param returnBreaks logical as to whether to return the vector of breaks. See details.
-#' @details if returnBreaks if FALSE, instead of returning the vector of breaks, the function will just return the second smallest and second largest value of the breaks. This is useful for alternatively just setting values of the data matrix larger than these values to this value if breaks was a percentile. This argument is only used if \code{breaks<1}, indicating truncating the breaks for large values of data.
+#' @details if returnBreaks if FALSE, instead of returning the vector of breaks, 
+#' the function will just return the second smallest and second largest value of the breaks. 
+#' This is useful for alternatively just setting values of the data matrix larger than these values to this value if breaks was a percentile. This argument is only used if \code{breaks<1}, indicating truncating the breaks for large values of data.
 #' @details \code{setBreaks} gives a set of breaks (of length 52) equally spaced
 #'   between the boundaries of the data. If breaks is between 0 and 1, then the
 #'   evenly spaced breaks are between these quantiles of the data.
