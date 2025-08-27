@@ -1,30 +1,60 @@
-# 24 reasonably distinct colors for categorical variables. 
-# "best" colors are at the beginning
-bigColorPalette <- c(
-  '#8DA0CB',    # muted blue-purple  
-  '#A6CEE3',    # light pastel blue  
-  '#B2DF8A',    # light green  
-  '#FDBF6F',    # soft orange  
-  '#E78AC3',    # pastel pink  
-  '#FC8D62',    # muted coral  
-  '#CAB2D6',    # pastel lavender  
-  '#F4CAE4',    # pinkish white  
-  'lightblue1', # soft light blue  
-  '#FDCDAC',    # soft skin tone  
-  'burlywood3', # muted tan  
-  '#E6F5C9',    # pastel light green  
-  '#F781BF',    # pastel pink  
-  '#FFD92F',    # pastel yellow  
-  '#E5D8BD',    # muted sand  
-  '#E5A25A',    # muted apricot  
-  '#A6D854',    # light green  
-  'cadetblue3', # muted teal  
-  'lightpink3', # soft pink  
-  'mediumpurple', # pastel purple  
-  '#D9D9D9',    # soft grey  
-  '#B3CDE3',    # dusty blue  
-  '#C7E9C0',    # muted mint  
-  '#FDDDE6'     # soft rose  
+bigPalette<-c(
+	'#E31A1C',
+	'#1F78B4',
+	'#33A02C',
+	'#FF7F00',
+	'#6A3D9A',
+	'#B15928',
+	'#A6CEE3',
+	'#bd18ea',
+	'cyan',
+	'#B2DF8A',
+	'#FB9A99',
+	"deeppink4",
+	'#00B3FFFF',
+	'#CAB2D6',
+	'#FFFF99',
+	'#05188a',
+	'#CCFF00FF',
+	'cornflowerblue',
+	'#f4cc03',
+	'black',
+	'blueviolet',
+	'#4d0776',
+	'maroon3',
+	'blue',
+	'#E5D8BD',
+	'cadetblue4',
+	'#e5a25a',
+	"lightblue1",
+	'#F781BF',
+	'#FC8D62',
+	'#8DA0CB',
+	'#E78AC3',
+	'green3',
+	'#E7298A',
+	'burlywood3',
+	'#A6D854',
+	"firebrick",
+	'#FFFFCC',
+	"mediumpurple",
+	'#1B9E77',
+	'#FFD92F',
+	'deepskyblue4',
+	"yellow3",
+	'#00FFB2FF',
+	'#FDBF6F',
+	'#FDCDAC',
+	"gold3",
+	'#F4CAE4',
+	'#E6F5C9',
+	'#FF00E6FF',
+	'#7570B3',
+	"goldenrod",
+	'#85848f',
+	"lightpink3",
+	"olivedrab",
+	'cadetblue3'
 )
 
 
