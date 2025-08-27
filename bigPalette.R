@@ -1,4 +1,6 @@
-bigColorPalette<-c(
+#' @title bigPalette
+#' @details \code{bigPalette} is a long palette of colors (length 58)
+bigPalette<-c(
 	'#E31A1C',
 	'#1F78B4',
 	'#33A02C',
