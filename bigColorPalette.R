@@ -1,4 +1,4 @@
-bigPalette<-c(
+bigColorPalette<-c(
 	'#E31A1C',
 	'#1F78B4',
 	'#33A02C',
